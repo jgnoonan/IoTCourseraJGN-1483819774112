@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoTCourseraJGN
+  host: IoTCourseraJGN
+  disk_quota: 1024M
+  services:
+  - IoTCourseraJGN-cloudantNoSQLDB
+  - IoTCourseraJGN-iotf-service
